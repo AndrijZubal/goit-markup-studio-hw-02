@@ -38,7 +38,9 @@ body {
 .menu-item:hover,
 .menu-item:focus,
 .contact-item:hover,
-.contact-item:focus {
+.contact-item:focus,
+.address-link:hover,
+.address-link:focus {
   color: var(--accent-color);
 }
 
