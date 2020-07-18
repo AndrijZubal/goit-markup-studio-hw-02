@@ -1,0 +1,134 @@
+:root {
+  --main-color: #757575;
+  --dark-color: #212121;
+  --wite-color: #ffffff;
+  --accent-color: #2196f3;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  color: var(--dark-color);
+}
+
+.logo-word {
+  color: var(--accent-color);
+}
+
+.link,
+.logo,
+.menu-item,
+.contact-item,
+.social-item,
+.address-link {
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus,
+.menu-item:hover,
+.menu-item:focus,
+.contact-item:hover,
+.contact-item:focus {
+  color: var(--accent-color);
+}
+
+.list,
+.contact,
+.requirement,
+.occupation,
+.team,
+.social {
+  list-style: none;
+}
+
+.menu-item,
+.contact-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.btn {
+  line-height: 1.714;
+  color: var(--wite-color);
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.hero,
+.ocupation-item {
+  background: rgba(47, 48, 58, 0.8);
+}
+
+h2 {
+  font-weight: 700d;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  color: var(--dark-color);
+}
+
+h3 {
+  font-weight: 700;
+  line-height: 1.143;
+  text-transform: uppercase;
+  color: var(--dark-color);
+}
+
+address {
+  font-size: 14px;
+  line-height: 1.714;
+  color: var(--wite-color);
+  background: #2f303a;
+}
+
+.ocupation-item {
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--wite-color);
+}
+
+.team-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  color: var(--dark-color);
+}
+
+.profesion {
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  color: var(--main-color);
+}
+
+.address-link {
+  font-size: 14px;
+  line-height: 1, 714;
+  color: rgba(255, 255, 255, 0.6);
+}
