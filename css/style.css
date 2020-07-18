@@ -104,6 +104,9 @@ address {
   font-size: 14px;
   line-height: 1.714;
   color: var(--wite-color);
+}
+
+footer {
   background: #2f303a;
 }
 
@@ -133,4 +136,10 @@ address {
   font-size: 14px;
   line-height: 1, 714;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.subscribe {
+  font-weight: 700d;
+  text-transform: uppercase;
+  color: var(--wite-color);
 }
