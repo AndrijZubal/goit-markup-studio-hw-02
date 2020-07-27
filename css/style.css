@@ -65,7 +65,7 @@ body {
 }
 
 .contact {
-  margin-left: 331px; 
+  margin-left: 331px;
 }
 
 .logo-word {
@@ -108,7 +108,7 @@ body {
 .requirement,
 .occupation,
 .team,
-.social,
+/* .social, */
 .client {
   list-style: none;
 }
@@ -123,8 +123,6 @@ body {
 }
 
 h1 {
- 
-
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
@@ -134,12 +132,11 @@ h1 {
   color: #ffffff;
 }
 
-.main-title{
+.main-title {
   padding: 200px 267px 0;
   margin: 0px;
 }
-.backgraund-main{
-  
+.backgraund-main {
   background: rgba(47, 48, 58, 0.8);
 }
 
@@ -160,7 +157,6 @@ h1 {
 .ocupation-paragraf {
   background: rgba(47, 48, 58, 0.8);
 }
-
 
 h2 {
   font-weight: 700d;
@@ -219,6 +215,14 @@ h2 {
   margin-right: 30px;
 }
 
+.social {
+  display: flex;
+  list-style: none;
+  margin-bottom: 212px;
+  padding: 0px;
+  justify-content: center;
+}
+
 h3 {
   font-weight: 700;
   line-height: 1.143;
@@ -275,7 +279,7 @@ address {
 }
 
 .subscribe {
-   margin-top: 72px;
+  margin-top: 72px;
   margin-bottom: 20px;
 
   font-weight: 700;
@@ -285,6 +289,7 @@ address {
 .address-contact {
   display: block;
 
+  text-decoration: none;
   font-size: 14px;
   line-height: 1.714;
   color: rgba(255, 255, 255, 0.6);
@@ -297,3 +302,8 @@ address {
   padding: 0px;
   margin-top: 60px;
   margin-bottom: 20px;
+}
+.footer-social {
+  display: flex;
+  list-style: none;
+}
