@@ -13,386 +13,447 @@
   </head>
   <body>
     <header>
-      <a class="logo" href="#"
-        ><p><span class="logo-word">Web</span> Studio</p></a
-      >
-      <nav class="nav">
-        <ul class="list">
-          <li><a class="menu-item" href="#" class="menu-link">Студия</a></li>
-          <li>
-            <a
-              class="menu-item"
-              href="../goit-markup-hw-02/index.html"
-              class="menu-link"
-              >Портфолио</a
-            >
-          </li>
-          <li>
-            <a class="menu-item" href="#" class="menu-link">Контакты</a>
-          </li>
-        </ul>
-        <ul class="contact">
-          <li>
-            <a class="contact-item" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="contact-item" href="tel:+380961111111"
-              >+38 096 111 11 11</a
-            >
-          </li>
-        </ul>
-      </nav>
+      <div class="conteiner flexbox">
+        <a class="logo" href="#">
+          <p class="icon"><span class="logo-word">Web</span> Studio</p>
+        </a>
+        <nav class="nav">
+          <ul class="list">
+            <li class="menu-list">
+              <a
+                class="menu-item"
+                href="../goit-markup-studio-hw-02/index.html"
+                class="menu-link"
+                >Студия</a
+              >
+            </li>
+            <li class="menu-list">
+              <a class="menu-item" href="#" class="menu-link">Портфолио</a>
+            </li>
+            <li class="menu-list">
+              <a class="menu-item" href="#" class="menu-link">Контакты</a>
+            </li>
+          </ul>
+          <ul class="contact list">
+            <li class="menu-list">
+              <a class="contact-item" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="menu-list">
+              <a class="contact-item" href="tel:+380961111111"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
       <!--Банер-->
-      <section class="hero">
-        <h1 class="title">Эффективные решения для вашего бизнеса</h1>
-        <button class="btn">Заказать услугу</button>
-      </section>
+      <div class="backgraund-main">
+      <div class="conteiner ">
+        <section class="hero">
+          <h1 class=" main-title">Эффективные решения<br> для вашего бизнеса</h1>
+          <button class="btn">Заказать услугу</button>
+        </section>
+      </div>
+      </div>
       <!--Вимоги-->
-      <section>
-        <h2 hidden>Вимоги</h2>
-        <ul class="requirement">
-          <li>
-            <img src="./image/antena.svg" alt="" />
-            <h3>Внимание к деталям</h3>
-            <p>
-              Идейные соображения, а также начало повседневной работы по
-              формированию позиции.
-            </p>
-          </li>
-          <li>
-            <img src="./image/clock.svg" alt="" />
-            <h3>Пунктуальность</h3>
-            <p>
-              Задача организации, в особенности же рамки и место обучения кадров
-              влечет за собой.
-            </p>
-          </li>
-          <li>
-            <img src="./image/diagram.svg" alt="" />
-            <h3>Планирование</h3>
-            <p>
-              Равным образом консультация с широким активом в значительной
-              степени обуславливает.
-            </p>
-          </li>
-          <li>
-            <img src="./image/astronaut.svg" alt="" />
-            <h3>Современные технологииь</h3>
-            <p>
-              Значимость этих проблем настолько очевидна, что реализация
-              плановых заданий.
-            </p>
-          </li>
-        </ul>
-      </section>
+      <div class="conteiner flexbox">
+        <section class="requirement-section">
+          <h2 class="visually-hidden" hidden>Вимоги</h2>
+          <ul class="requirement">
+            <li class="requirement-item">
+              <img class="requirement-logo" src="./image/antena.svg" alt="" />
+              <h3 class="requirement-title">Внимание к деталям</h3>
+              <p class="requirement-paragraf">
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
+            </li>
+            <li class="requirement-item">
+              <img class="requirement-logo" src="./image/clock.svg" alt="" />
+              <h3 class="requirement-title">Пунктуальность</h3>
+              <p class="requirement-paragraf">
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
+              </p>
+            </li>
+            <li class="requirement-item">
+              <img class="requirement-logo" src="./image/diagram.svg" alt="" />
+              <h3 class="requirement-title">Планирование</h3>
+              <p class="requirement-paragraf">
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
+            </li>
+            <li class="requirement-item">
+              <img
+                class="requirement-logo"
+                src="./image/astronaut.svg"
+                alt=""
+              />
+              <h3 class="requirement-title">Современные технологииь</h3>
+              <p class="requirement-paragraf">
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </section>
+      </div>
       <!--Род занятий-->
-      <section>
-        <h2>Чем мы занимаемся</h2>
-        <ul class="occupation">
-          <li>
-            <img
-              src="./image/img1.jpg"
-              alt="Десктопные приложения"
-              width="370"
-              height="294"
-            />
-            <p class="ocupation-item">Десктопные приложения</p>
-          </li>
-          <li>
-            <img
-              src="./image/img2.jpg"
-              alt="Мобильные приложения"
-              width="370"
-              height="294"
-            />
-            <p class="ocupation-item">Мобильные приложения</p>
-          </li>
-          <li>
-            <img
-              src="./image/img3.jpg"
-              alt="Дизайнерские решения"
-              width="370"
-              height="294"
-            />
-            <p class="ocupation-item">Дизайнерские решения</p>
-          </li>
-        </ul>
-      </section>
+      <div class="conteiner flexbox">
+        <section>
+          <h2 class="title">Чем мы занимаемся</h2>
+          <ul class="occupation">
+            <li class="ocupation-item">
+              <img
+                src="./image/img1.jpg"
+                alt="Десктопные приложения"
+                width="370"
+                height="294"
+              />
+              <p class="ocupation-paragraf">Десктопные приложения</p>
+            </li>
+            <li class="ocupation-item">
+              <img
+                src="./image/img2.jpg"
+                alt="Мобильные приложения"
+                width="370"
+                height="294"
+              />
+              <p class="ocupation-paragraf">Мобильные приложения</p>
+            </li>
+            <li class="ocupation-item">
+              <img
+                src="./image/img3.jpg"
+                alt="Дизайнерские решения"
+                width="370"
+                height="294"
+              />
+              <p class="ocupation-paragraf">Дизайнерские решения</p>
+            </li>
+          </ul>
+        </section>
+      </div>
       <!--Наша команда-->
-      <section>
-        <h2>Наша команда</h2>
-        <ul class="team">
-          <li>
-            <img
-              src="./image/foto/nikolaj.jpg"
-              alt="Николай Кучеренко"
-              width="270"
-              height="260"
-            />
-            <h3 class="team-item">Николай Кучеренко</h3>
-            <p lang="en" class="profesion">Product Designer</p>
-            <ul class="social">
-              <li>
-                <a
-                  class="social-item"
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="ссилка на  instagram"
-                  >instagram</a
-                >
-              </li>
-              <li>
-                <a
-                  class="social-item"
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="ссилка на twitter"
-                  >twitter</a
-                >
-              </li>
-              <li>
-                <a
-                  class="social-item"
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="ссилка на facebook"
-                  >facebook</a
-                >
-              </li>
-              <li>
-                <a
-                  class="social-item"
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="ссилка на linkedin"
-                  >linkedin</a
-                >
-              </li>
-            </ul>
-          </li>
-          <li>
-            <img
-              src="./image/foto/olga.jpg"
-              alt="Ольга Иванова"
-              width="270"
-              height="260"
-            />
-            <h3 class="team-item">Ольга Иванова</h3>
-            <p lang="en" class="profesion">Frontend Developer</p>
-            <ul class="social">
-              <li>
-                <a
-                  class="social-item"
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="ссилка на twitter"
-                  >twitter</a
-                >
-              </li>
-              <li>
-                <a
-                  class="social-item"
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="ссилка на facebook"
-                  >facebook</a
-                >
-              </li>
-              <li>
-                <a
-                  class="social-item"
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="ссилка на linkedin"
-                  >linkedin</a
-                >
-              </li>
-              <li>
-                <a
-                  class="social-item"
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="ссилка на  instagram"
-                  >instagram
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <img
-              src="./image/foto/andrij.jpg"
-              alt="Андрей Шевченко"
-              width="270"
-              height="260"
-            />
-            <h3 class="team-item">Андрей Шевченко</h3>
-            <p lang="en" class="profesion">Marketing</p>
-            <ul class="social">
-              <li>
-                <a
-                  class="social-item"
-                  class="social-item"
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="ссилка на  instagram"
-                  >instagram</a
-                >
-              </li>
-              <li>
-                <a
-                  class="social-item"
-                  class="social-item"
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="ссилка на twitter"
-                  >twitter</a
-                >
-              </li>
-              <li>
-                <a
-                  class="social-item"
-                  class="social-item"
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="ссилка на facebook"
-                  >facebook</a
-                >
-              </li>
-              <li>
-                <a
-                  class="social-item"
-                  class="social-item"
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="ссилка на linkedin"
-                  >linkedin</a
-                >
-              </li>
-            </ul>
-          </li>
-          <li>
-            <img
-              src="./image/foto/ivan.jpg"
-              alt="Иван Николаев"
-              width="270"
-              height="260"
-            />
-            <h3 class="team-item">Иван Николаев</h3>
-            <p lang="en" class="profesion">UI Designer</p>
-            <ul class="social">
-              <li>
-                <a
-                  class="social-item"
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="ссилка на  instagram"
-                  >instagram</a
-                >
-              </li>
-              <li>
-                <a
-                  class="social-item"
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="ссилка на twitter"
-                  >twitter</a
-                >
-              </li>
-              <li>
-                <a
-                  class="social-item"
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="ссилка на facebook"
-                  >facebook</a
-                >
-              </li>
-              <li>
-                <a
-                  class="social-item"
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="ссилка на linkedin"
-                  >linkedin</a
-                >
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </section>
+      <div class="conteiner flexbox">
+        <section>
+          <h2 class="title">Наша команда</h2>
+          <ul class="team">
+            <li class="team-list">
+              <img
+                src="./image/foto/nikolaj.jpg"
+                alt="Николай Кучеренко"
+                width="270"
+                height="260"
+              />
+              <h3 class="team-item">Николай Кучеренко</h3>
+              <p lang="en" class="profesion">Product Designer</p>
+              <ul class="social">
+                <li>
+                  <a
+                    class="social-item"
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="ссилка на  instagram"
+                    >instagram</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="social-item"
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="ссилка на twitter"
+                    >twitter</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="social-item"
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="ссилка на facebook"
+                    >facebook</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="social-item"
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="ссилка на linkedin"
+                    >linkedin</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="ocupation-item">
+              <img
+                src="./image/foto/olga.jpg"
+                alt="Ольга Иванова"
+                width="270"
+                height="260"
+              />
+              <h3 class="team-item">Ольга Иванова</h3>
+              <p lang="en" class="profesion">Frontend Developer</p>
+              <ul class="social">
+                <li>
+                  <a
+                    class="social-item"
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="ссилка на twitter"
+                    >twitter</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="social-item"
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="ссилка на facebook"
+                    >facebook</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="social-item"
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="ссилка на linkedin"
+                    >linkedin</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="social-item"
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="ссилка на  instagram"
+                    >instagram
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="ocupation-item">
+              <img
+                src="./image/foto/andrij.jpg"
+                alt="Андрей Шевченко"
+                width="270"
+                height="260"
+              />
+              <h3 class="team-item">Андрей Шевченко</h3>
+              <p lang="en" class="profesion">Marketing</p>
+              <ul class="social">
+                <li>
+                  <a
+                    class="social-item"
+                    class="social-item"
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="ссилка на  instagram"
+                    >instagram</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="social-item"
+                    class="social-item"
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="ссилка на twitter"
+                    >twitter</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="social-item"
+                    class="social-item"
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="ссилка на facebook"
+                    >facebook</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="social-item"
+                    class="social-item"
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="ссилка на linkedin"
+                    >linkedin</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="ocupation-item">
+              <img
+                src="./image/foto/ivan.jpg"
+                alt="Иван Николаев"
+                width="270"
+                height="260"
+              />
+              <h3 class="team-item">Иван Николаев</h3>
+              <p lang="en" class="profesion">UI Designer</p>
+              <ul class="social">
+                <li>
+                  <a
+                    class="social-item"
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="ссилка на  instagram"
+                    >instagram</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="social-item"
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="ссилка на twitter"
+                    >twitter</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="social-item"
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="ссилка на facebook"
+                    >facebook</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="social-item"
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="ссилка на linkedin"
+                    >linkedin</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+      </div>
       <!--Постоянные клиенты-->
-      <section>
-        <h2>Постоянные клиенты</h2>
-        <ul>
-          <li>
-            <a href="">
-              <img src="./image/logo1.svg" alt="logo1" />
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="./image/logo2.svg" alt="logo2" />
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="./image/logo3.svg" alt="logo3" />
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="./image/logo4.svg" alt="logo4" />
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="./image/logo5.svg" alt="logo5" />
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="./image/logo6.svg" alt="logo6" />
-            </a>
-          </li>
-        </ul>
-      </section>
+      
+      <div class="conteiner flexbox">
+        <section>
+          <h2 class="title">Постоянные клиенты</h2>
+          <ul class="client">
+            <li class="client-item">
+              <a href="">
+                <img
+                  class="img"
+                  src="./image/logo1.svg"
+                  alt="logo1"
+                  width="170"
+                  height="90"
+                />
+              </a>
+            </li>
+            <li class="client-item">
+              <a href="">
+                <img
+                  class="img"
+                  src="./image/logo2.svg"
+                  alt="logo2"
+                  width="170"
+                  height="90"
+                />
+              </a>
+            </li>
+            <li class="client-item">
+              <a href="">
+                <img
+                  class="img"
+                  src="./image/logo3.svg"
+                  alt="logo3"
+                  width="170"
+                  height="90"
+                />
+              </a>
+            </li>
+            <li class="client-item">
+              <a href="">
+                <img
+                  class="img"
+                  src="./image/logo4.svg"
+                  alt="logo4"
+                  width="170"
+                  height="90"
+                />
+              </a>
+            </li>
+            <li class="client-item">
+              <a href="">
+                <img
+                  class="img"
+                  src="./image/logo5.svg"
+                  alt="logo5"
+                  width="170"
+                  height="90"
+                />
+              </a>
+            </li>
+            <li class="client-item">
+              <a href="">
+                <img
+                  class="img"
+                  src="./image/logo6.svg"
+                  alt="logo6"
+                  width="170"
+                  height="90"
+                />
+              </a>
+            </li>
+          </ul>
+        </section>
+      </div>
     </main>
-    <footer>
-      <div>
-        <a class="logo" href="#"
-          ><p><span class="logo-word">Web</span> Studio</p></a
-        >
+    <div class="backgraund-dark">
+    <footer class="conteiner flexbox">
+      <div class="footer-section">
+        <a class="logo" href="#">
+          <p class="footer-icon"><span class="logo-word">Web</span> Studio</p>
+        </a>
         <address>
           г. Киев, пр-т Леси Украинки, 26 <br />
-          <a class="address-link" href="mailto:info@example.com"
+          <a class="address-contact" href="mailto:info@example.com"
             >info@example.com</a
           >
-          <a class="address-link" href="tel:+380991111111">+38 099 111 11 11</a>
+          <a class="address-contact" href="tel:+380991111111"
+            >+38 099 111 11 11</a
+          >
         </address>
       </div>
-      <div>
+      <!-- соц. мережі -->
+      <div class="footer-section">
         <p class="subscribe">присоединяйтесь</p>
-        <ul class="social">
+        <ul>
           <li>
             <a
               href="#"
@@ -431,8 +492,9 @@
           </li>
         </ul>
       </div>
-      <div>
+      <div class="footer-section">
         <p class="subscribe">Подпишитесь на рассылку</p>
+      </div>
       </div>
     </footer>
   </body>

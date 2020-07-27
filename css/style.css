@@ -5,12 +5,71 @@
   --accent-color: #2196f3;
 }
 
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+.conteiner {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.flexbox,
+.nav {
+  display: flex;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: var(--main-color);
+}
+
+.list,
+.contact {
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+}
+
+.icon {
+  margin: 0px;
+  padding-right: 80px;
+}
+
+.logo {
+  padding: 25px 0px;
+  margin: 0px;
+}
+
+.nav {
+  padding: 32px 0px;
+  align-items: baseline;
+}
+
+.menu-list:not(:last-child) {
+  padding-right: 50px;
+}
+
+.contact {
+  margin-left: 331px; 
+}
+
+.logo-word {
+  color: var(--accent-color);
 }
 
 .logo {
@@ -49,7 +108,8 @@ body {
 .requirement,
 .occupation,
 .team,
-.social {
+.social,
+.client {
   list-style: none;
 }
 
@@ -63,6 +123,8 @@ body {
 }
 
 h1 {
+ 
+
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
@@ -72,18 +134,35 @@ h1 {
   color: #ffffff;
 }
 
+.main-title{
+  padding: 200px 267px 0;
+  margin: 0px;
+}
+.backgraund-main{
+  width: 1230px;
+  height: 599px;
+
+  background: rgba(47, 48, 58, 0.8);
+}
+
 .btn {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  border-radius: 4px;
+  padding: 10px 32px;
+
   line-height: 1.714;
   color: var(--wite-color);
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
 }
 
-.hero,
-.ocupation-item {
+.ocupation-paragraf {
   background: rgba(47, 48, 58, 0.8);
 }
+
 
 h2 {
   font-weight: 700d;
@@ -91,6 +170,55 @@ h2 {
   line-height: 1.167;
   text-align: center;
   color: var(--dark-color);
+}
+
+.requirement {
+  margin: 94px 0;
+  padding: 0px;
+  display: flex;
+}
+
+.requirement-item:not(:last-child) {
+  margin-right: 30px;
+}
+.requirement-logo {
+  padding: 25px 102px;
+}
+.requirement-title {
+  margin: 30px 0 10px;
+}
+.requirement-paragraf {
+  margin: 0px;
+}
+.title {
+  margin: 0 0 50px;
+}
+.occupation {
+  display: flex;
+  width: caic((100% - 30px * 2) / 3);
+  margin: 0 0 188px;
+  padding: 0px;
+}
+.ocupation-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.ocupation-paragraf {
+  margin: 0px;
+  padding: 27px 82px;
+
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--wite-color);
+}
+.team {
+  display: flex;
+  width: calc((100% - 30px * 3) / 4);
+  padding: 0px;
+}
+.team-list:not(:last-child) {
+  margin-right: 30px;
 }
 
 h3 {
@@ -107,18 +235,13 @@ address {
   font-style: normal;
 }
 
-footer {
+.backgraund-dark {
   background: #2f303a;
 }
 
-.ocupation-item {
-  font-weight: 700;
-  text-align: center;
-  text-transform: uppercase;
-  color: var(--wite-color);
-}
-
 .team-item {
+  margin: 30px 0 10px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.187;
@@ -127,12 +250,26 @@ footer {
 }
 
 .profesion {
+  margin: 0 0 16px;
+
   font-size: 16px;
   line-height: 1.187;
   text-align: center;
   color: var(--main-color);
 }
+.client {
+  display: flex;
+  width: calc((100% - 30px * 5) / 6);
+  padding: 0px;
+  margin-bottom: 94px;
+}
 
+.client-item:not(:last-child) {
+  margin-right: 30px;
+}
+.social-item {
+  border-color: var(--main-color);
+}
 .address-link {
   font-size: 14px;
   line-height: 1, 714;
@@ -140,7 +277,25 @@ footer {
 }
 
 .subscribe {
-  font-weight: 700d;
+   margin-top: 72px;
+  margin-bottom: 20px;
+
+  font-weight: 700;
   text-transform: uppercase;
   color: var(--wite-color);
 }
+.address-contact {
+  display: block;
+
+  font-size: 14px;
+  line-height: 1.714;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-section:not(:last-child) {
+  width: calc((100% - 30px * 2) / 3);
+  margin-right: 30px;
+}
+.footer-icon {
+  padding: 0px;
+  margin-top: 60px;
+  margin-bottom: 20px;
